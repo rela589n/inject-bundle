@@ -1,0 +1,33 @@
+{
+    "name": "rela589n/inject-bundle",
+    "description": "Package, which provides injection adapter for symfony container.",
+    "type": "library",
+    "require": {
+        "php": "^7.2 || ^8.0",
+        "webmozart/assert": "*",
+        "symfony/symfony": "^4.4",
+        "rela589n/inject-core": "@dev"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.5"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Rela589n\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "rela589n",
+            "email": "zsidelnik@gmail.com"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "path",
+            "url": "/home/rela589n/projects/rela589n/inject-core"
+        }
+    ],
+    "minimum-stability": "stable"
+}
