@@ -24,6 +24,6 @@ in the `config/bundles.php` file of your project:
 
 return [
     // ...
-    \Rela589n\Inject\Bundle\Rela589nInjectBundle::class => ['all' => true],
+    \Rela589n\Injection\Bundle\Rela589nInjectBundle::class => ['all' => true],
 ];
 ```
